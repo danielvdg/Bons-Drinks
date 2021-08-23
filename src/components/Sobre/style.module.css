@@ -1,0 +1,39 @@
+.sobreConteiner{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+        "title title"
+        "half1 half2";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.sobreTitle{
+    grid-area:title;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.title{
+    /* font-family: var(--titles-font); */
+    font-weight: 700;
+    font-size: 30px;
+    color: #5c0511;
+    text-align: center;
+    margin-top: 20px;
+}
+.sobreImgMain{
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    grid-area: half1;
+    max-width: 100%;
+    align-self: start;
+    object-fit: cover;
+    max-height: 400px;
+    width: 550px;
+    border-radius: 5px;
+}
+
+.sobreP{
+    font-size: 20px;
+    line-height: 25px;
+}

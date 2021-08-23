@@ -1,0 +1,37 @@
+.contatoConteiner {
+  display: grid;
+  justify-self: center;
+  grid-template-areas:
+    "title title"
+    "half1 half2";
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+} 
+
+.contatoTitle {
+  justify-content: center;
+  grid-area: title;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;  
+  font-weight: 700;
+  font-size: 30px;
+  color: #5c0511;
+  text-align: center;
+  margin-top: 20px;
+}
+.half1 {
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  grid-area: half1;
+  max-width: 100%;
+  align-self: start;
+  object-fit: cover;
+  max-height: 400px;
+  width: 550px;
+  border-radius: 5px;
+} 
+
+

@@ -1,0 +1,48 @@
+.mainImgPrincipal{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background-image:url('../../img/bg-bons-drinks.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat ;
+    background-position: top;
+    
+}
+.logo{
+    display: grid;
+    grid-template-columns: 1 auto;
+    grid-template-rows:repeat(2,auto);
+}
+@font-face {
+    font-family:'BilboSwashCaps';
+    src: url('../../fonts/BilboSwashCaps-Regular.ttf');
+}
+.logoP1{
+    font-family:'BilboSwashCaps';
+    font-weight: bold;
+    display: grid;
+    align-content: flex-start;
+    grid-row: 1;   
+    font-size: 150px;
+    color: #FFFBEF;
+    animation-name:logoTransition;
+    animation-delay: 0s;
+    animation-duration: 2.5s; 
+    pointer-events: all;
+    
+}
+
+@keyframes logoTransition{
+  from {font-size: 10px;}
+  to {font-size: 150px;}
+}
+    
+
+
+
+
+
+
+

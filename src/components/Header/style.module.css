@@ -1,0 +1,44 @@
+.headerMenuConteiner{
+    background-color:#FFFBEF;  
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    
+}
+.headerAbasLista{
+    display: flex;
+    margin-right: 64px;
+    margin-left: 64px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    
+    
+}
+@font-face {
+    font-family: 'OpenSansCondensed' ;
+    src: url('../../fonts/OpenSansCondensed-Bold.ttf'), url('../../fonts/OpenSansCondensed-Light.ttf') , url('../../fonts/OpenSansCondensed-LightItalic.ttf') ;
+}
+
+@font-face {
+    font-family: 'BilboSwashCaps' ;
+    src: url('../../fonts/BilboSwashCaps-Regular.ttf');
+}
+.headerAbasItem{
+    text-decoration: none;
+    font-family: 'OpenSansCondensed' ;
+    font-size: 26px;
+    color: black;
+}
+.headerLogo{
+    font-size: 30px;
+    font-family: 'BilboSwashCaps' ;
+   
+}
+
+.headerAbasItem:hover{
+    font-size: 40px;
+    color: #F9AE48;
+    transition: 0.4s;
+}
+
+
+    
